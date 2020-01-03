@@ -63,7 +63,7 @@ spec:
             configMapKeyRef:
               key: SQL_PORT
               name: web-env-prod
-        image: web
+        image: flask-on-docker_web 
         name: web
         resources: {}
         volumeMounts:
