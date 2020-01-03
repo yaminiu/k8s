@@ -6,7 +6,6 @@ metadata:
     io.kompose.service: postgres-data
   name: postgres-data
 spec:
-  storageClassName: slow
   accessModes:
   - ReadWriteOnce
   resources:
